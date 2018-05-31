@@ -8,7 +8,7 @@ plt.figure(figsize=(10, 5))
 plt.title('exponential function')
 plt.ylabel('x')
 plt.xlabel('exp(x)')
-pyplot.stem( x, y, linefmt='b-', basefmt=' ' );
+plt.stem( x, y, linefmt='b-', basefmt=' ' );
 plt.grid(True)
 plt.xlim(-1,10)
 plt.ylim(-100,10000)

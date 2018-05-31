@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
- 
+
 npoints=50
 x = list(range(-100, 100))
 def unit_step(x,a):
@@ -9,7 +9,7 @@ def unit_step(x,a):
     elif x >= a:
         result = 1
     return result
-       
+
 def ramp(x,a):
     result = 0
     if x < a :
@@ -27,5 +27,5 @@ plt.xlim(-10,20)
 plt.ylim(-0.1,10.1)
 
 plt.plot(x, y, color="blue")
- 
+
 plt.show()
