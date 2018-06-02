@@ -1,7 +1,7 @@
 /**
   ******************************************************************************
   * @file    main.c
-  * @author  Ac6
+  * @author  Natthawut Sibunnan
   * @version V1.0
   * @date    01-December-2013
   * @brief   Default main function.
@@ -15,7 +15,7 @@
 #include "stm32_hal_legacy.h"
 
 #include "stdio.h"
-#include "../../../../workspace/fft/CMSIS/device/stm32f4xx.h"
+#include "stm32f4xx.h"
 
 static void SystemClock_Config(void);
 void ConfigureADC(void);
@@ -253,4 +253,3 @@ void assert_failed(uint8_t* file, uint32_t line)
 /**
   * @}
 */
-
